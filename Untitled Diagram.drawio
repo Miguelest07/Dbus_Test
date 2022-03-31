@@ -1,1 +1,124 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T22:56:18.807Z" agent="5.0 (Windows)" version="17.4.0" etag="KRWG6I3cyMnfHJShlyY7" type="github"><diagram id="eVE0Ja3XjnnXpUwLnZNk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-31T23:12:53.095Z" agent="5.0 (Windows)" etag="K8SYXklciSArDbPaR5wc" version="17.4.0" type="github">
+  <diagram id="eVE0Ja3XjnnXpUwLnZNk" name="Page-1">
+    <mxGraphModel dx="2310" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eX-mvEsq4F-tMJfVQ72z-1" target="eX-mvEsq4F-tMJfVQ72z-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eX-mvEsq4F-tMJfVQ72z-2" target="eX-mvEsq4F-tMJfVQ72z-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-2" value="Command is sent from PC " style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="190" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eX-mvEsq4F-tMJfVQ72z-3" target="eX-mvEsq4F-tMJfVQ72z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-3" value="Microcontroller receive the command" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eX-mvEsq4F-tMJfVQ72z-6" target="eX-mvEsq4F-tMJfVQ72z-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-6" value="Parses the command to gather channel and resistance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="430" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eX-mvEsq4F-tMJfVQ72z-7" target="eX-mvEsq4F-tMJfVQ72z-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-7" value="Is the channel already&amp;nbsp; ON?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="320" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eX-mvEsq4F-tMJfVQ72z-8" target="eX-mvEsq4F-tMJfVQ72z-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-8" value="Error message" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="360" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eX-mvEsq4F-tMJfVQ72z-9" target="eX-mvEsq4F-tMJfVQ72z-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-9" value="Store resistance value in the programmable resistances " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="190" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eX-mvEsq4F-tMJfVQ72z-7" target="eX-mvEsq4F-tMJfVQ72z-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eX-mvEsq4F-tMJfVQ72z-11" target="eX-mvEsq4F-tMJfVQ72z-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-11" value="Channel controller select desired channel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="430" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eX-mvEsq4F-tMJfVQ72z-12" target="eX-mvEsq4F-tMJfVQ72z-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-12" value="&lt;div&gt;Cold switch ON&lt;/div&gt;&lt;div&gt;(select programmable resistance)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="560" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eX-mvEsq4F-tMJfVQ72z-13" target="eX-mvEsq4F-tMJfVQ72z-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-13" value="&lt;div&gt;Cold switch OFF&lt;br&gt;&lt;/div&gt;&lt;div&gt;(select external resistance)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="320" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eX-mvEsq4F-tMJfVQ72z-16" target="eX-mvEsq4F-tMJfVQ72z-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-36" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eX-mvEsq4F-tMJfVQ72z-29">
+          <mxGeometry x="-0.8871" relative="1" as="geometry">
+            <mxPoint x="4" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eX-mvEsq4F-tMJfVQ72z-16" target="eX-mvEsq4F-tMJfVQ72z-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="600" />
+              <mxPoint x="420" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-16" value="Is the command correct?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="560" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eX-mvEsq4F-tMJfVQ72z-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-20" value="Output the desired resistance in selected channel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="560" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-24" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-37" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="209.95238095238096" y="594" as="geometry">
+            <mxPoint x="168" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-40" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="400" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eX-mvEsq4F-tMJfVQ72z-41" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="340" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
